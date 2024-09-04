@@ -1,5 +1,5 @@
 import './Background.css'
-import bmw_cinemtic from './bmw_cinemtic.mp4'
+import tesla from './tesla.mp4'
 import image1 from './image1.jpeg'
 import image2 from './image2.jpeg'
 import image3 from './image3.jpeg'
@@ -9,7 +9,7 @@ const Background = ({playStatus,heroCount}) => {
     
         return (
                 <video className='background' autoPlay loop muted>
-                    <source src={ bmw_cinemtic} type="video/mp4"/>
+                    <source src={ tesla} type="video/mp4"/>
                 </video>
             
         )

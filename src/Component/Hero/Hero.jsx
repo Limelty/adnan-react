@@ -5,56 +5,29 @@ const Hero = () => {
     return (
         <div className='hero'>
             <div className='first'>
-             <h1>BMW THE BEST 
-                BRAND</h1>
-            <h3>2024 Consumer Repost</h3>
-            <h4><a href="#">Learn More</a></h4>
+                <h1>Tesla Model X</h1>
+                <h3>From $65,9903</h3>
+                <h4><a href="#">Learn More</a></h4>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <div className="footer">
-            <div className='link'>
-            <a href="#">Ad Choices</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms</a>
-        <a href="#">Do Not Sell or Share My Personal Information</a>
-        <a href="#">Manage Cookies</a>
-        <a href="#">Safety and Emission Recalls</a>
-        <a href="#">Fraud Warning</a>
-        <a href="#">BMW Accessibility Statement</a>
-        <a href="#">BMW Press Room</a>
-        <a href="#">Site Map</a>
-        <a href="#">Careers</a>
-        <a href="#">Contact Us</a>
-        <a href="#">BMW Motorcycles</a>
-        <a href="#">BMW Bank</a>
-        <a href="#">FAQ</a>
-        <a href="#">Pricing Information</a>
-            </div>
-            <div className="akhirnya">
-            © 2024 BMW of North America, LLC. The BMW name, BMW logo, 
-            BMW model names, and other trademarks are trademarks of BMW AG.
-            </div>
+                <div className="top">
+                    <p>1 Price before estimated savings is $46,630, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $6,000 in gas savings estimated over five years, the $7,500 Federal Tax Credit and state incentives, available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. Terms apply.</p>
+                    <p>2 Price before estimated savings is $44,130, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $5,000 in gas savings estimated over five years, the $7,500 Federal Tax Credit and state incentives, available to eligible buyers and subject to MSRP caps. Model 3 Rear-Wheel Drive and leases not eligible for the Federal Tax Credit. Terms apply.</p>
+                    <p>3 Price before estimated savings is $81,630, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $6,500 in gas savings estimated over five years, the $7,500 Federal Tax Credit and state incentives, available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. Terms apply.</p>
+                    <p>3 Price before estimated savings is $81,630, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $6,500 in gas savings estimated over five years, the $7,500 Federal Tax Credit and state incentives, available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. Terms apply.</p>
+                </div>
+
+                <div className="bottom">
+                    <p>Tesla © 2024</p>
+                    <p>Privacy & Legal</p>
+                    <p>Vehicle Recalls</p>
+                    <p>Contact</p>
+                    <p>News</p>
+                    <p>Get Updates</p>
+                    <p>Locations</p>
+                </div>
             </div>
         </div>
-        
     )
 }
 
