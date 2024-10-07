@@ -4,7 +4,7 @@ import image1 from './image1.jpeg'
 import image2 from './image2.jpeg'
 import image3 from './image3.jpeg'
 
-const Background = ({playStatus,heroCount}) => {
+const Background = ({playStatus}) => {
     if (playStatus){
     
         return (
@@ -14,18 +14,6 @@ const Background = ({playStatus,heroCount}) => {
             
         )
     }
-     else if (heroCount===0)
-        {
-            return <img src={image1} className='background' alt="" />
-        }   
-     else if (heroCount===1)
-        {
-            return <img src={image2} className='background' alt="" />
-        }   
-     else if (heroCount===2)
-        {
-            return <img src={image3} className='background' alt="" />
-        }   
 }
 
 export default Background
